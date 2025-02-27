@@ -15,13 +15,12 @@ The system uses PySide2 for the GUI and serial communication to interface with t
 
 Hardware Architecture
 The BMS hardware architecture consists of:
-
 BMS Master Controller: Arduino-based controller that interfaces with the GUI via serial communication
 LTC6813 Slave Devices: 6 LTC6813 chips monitoring 106 cell taps via IsoSPI-SPI
 Thermistor Modules: CAN-based modules monitoring 160 thermistors
 Elcon Charger: Controlled via CAN bus communications
 
-Communication Protocol
+Communication Protocol:
 Serial Communication (GUI ↔ BMS)
 The GUI communicates with the BMS master controller via serial communication with the following protocol formats:
 
@@ -54,7 +53,7 @@ Installation
 2.Clone this repository
 3.install the packages given in requirements.txt
 
-Usage
+Usage:
 
 Connection Setup:
 
