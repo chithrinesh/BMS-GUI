@@ -5,6 +5,8 @@ A Python-based graphical user interface for monitoring and controlling a Battery
 
 ![Image Alt](https://github.com/chithrinesh/BMS-GUI/blob/main/GUI%20WITH%20DATA.png?raw=true)
 
+![Image Alt](https://github.com/chithrinesh/BMS-GUI/blob/main/GUI.png?raw=true)
+
 
 ## Features
 Real-time monitoring of 106 cell voltages
