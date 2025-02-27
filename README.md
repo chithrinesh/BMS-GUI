@@ -3,6 +3,8 @@
 
 A Python-based graphical user interface for monitoring and controlling a Battery Management System (BMS) based on Analog Devices LTC6813 chips and Elcon charger using CAN communication.
 
+![Image Alt](https://github.com/chithrinesh/BMS-GUI/blob/main/GUI%20WITH%20DATA.png?raw=true)
+
 
 ## Features
 Real-time monitoring of 106 cell voltages
