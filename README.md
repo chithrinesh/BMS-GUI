@@ -22,7 +22,7 @@ Start/stop charging capability
 Error flag monitoring
 
 Total voltage display
-## Messag format:
+## Message format:
 
 The GUI communicates with the BMS master controller via serial communication with the following protocol formats:
 
