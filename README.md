@@ -135,10 +135,11 @@ if (Serial.available() >= 5)
 
 ## Deployment
 
-To deploy this project run
+To deploy this project open BMS-GUI folder in pycharm make sure to use python 3.9 and install the below packages
 
 ```bash
   
-  pip install PySide2 pyserial
+  pip install PySide2
+  pip install pyserial
 ```
 
