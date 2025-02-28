@@ -1,5 +1,5 @@
 
-# Project Title
+# Python based BMS GUI
 
 A Python-based graphical user interface for monitoring and controlling a Battery Management System (BMS) based on Analog Devices LTC6813 chips and Elcon 6.6KW charger using CAN communication.
 
@@ -52,8 +52,9 @@ y,commandedvoltage
 
 x,commandedcurrent
 ## Example format for sending data to GUI:
+ ```bash
 Serial.print("f,");
-
+```
 Serial.println(chargingvoltage);
 
 It sends the charging voltage read from charger to GUI
@@ -75,7 +76,8 @@ On pressing send button the python code multiples the input then converts it int
 
 b volthighbyte voltlobyte currenthibyte currentlobyte
 ## BMS CODE TO READ CHARGER CONTROL DATA FROM GUI:
- if (Serial.available() > 0) 
+ ```bash
+if (Serial.available() > 0) 
     {
 
         char command1 = Serial.read();
@@ -129,7 +131,7 @@ if (Serial.available() >= 5)
 
       }
     }
-
+```
 
 ## Deployment
 
